@@ -1,0 +1,34 @@
+
+											import :
+	The standrd libary is a "built-in module" full of core 
+	packages and functionalities.
+	* we have the same concept ("Standard Libary") in Python
+	or other language. 
+
+
+
+   *** Formatting & Outputing String :
+      "fmt" packages: 
+
+        fmt.Print(str)
+        fmt.Printf(format, str)
+        fmt.Println(str) 
+               
+               Format string (default formatter or custom) and output 
+               formatted string to standrd output.
+
+        fmt.Sprint(str)
+        fmt.Sprintf(format, str)
+        fmt.Sprintln(str)
+
+                Format string (default formatter or custom) and return
+                formatted string
+
+        fmt.Fprint(writer, str)
+        fmt.Fprintf(writer, format, str)
+        fmt.Fprintln(writer, str)
+
+                 Format string (default formatter or custom) and write
+                 to specified writer.
+
+
